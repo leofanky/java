@@ -38,6 +38,7 @@ public class Homework2 {
                         new FileOutputStream("output.txt"), "ascii"));
 
             writer.write(new Integer(number).toString());
+
             writer.close();
 
           } catch (IOException ex) {
